@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     loadingElement.style.display = 'block';
 
     try {
-      const apiKey = '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'; // Replace with your ChatGPT API key
+      const apiKey = ''; // Replace with your ChatGPT API key
       const contentType = await getContentType(choice, apiKey);
       const responseText = await getContentBasedOnType(contentType, choice, apiKey);
       displayData(responseText);
